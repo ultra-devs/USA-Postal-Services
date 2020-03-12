@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "feed.source",
+    "type": "java.lang.String",
+    "description": "A description for 'feed.source'"
+  },
+  {
+    "name": "application.version",
+    "type": "java.lang.String",
+    "description": "A description for 'application.version'"
+  },
+  {
+    "name": "secure.services",
+    "type": "java.lang.String",
+    "description": "A description for 'secure.services'"
+  },
+  {
+    "name": "secure.service.password",
+    "type": "java.lang.String",
+    "description": "A description for 'secure.service.password'"
+  },
+  {
+    "name": "secure.service.user",
+    "type": "java.lang.String",
+    "description": "A description for 'secure.service.user'"
+  },
+  {
+    "name": "secure.service.token.age",
+    "type": "java.lang.String",
+    "description": "A description for 'secure.service.token.age'"
+  },
+  {
+    "name": "secure.api.service.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'secure.api.service.enable'"
+  }
+]}
