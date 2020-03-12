@@ -1,4 +1,4 @@
-## ZipCode Loop REST( Draft)
+## US ZipCode/state Serach 
 
 Objective:  Build a REST API to fetch the details of a US zip code. The raw data was obtained from http://download.geonames.org/export/zip
 
