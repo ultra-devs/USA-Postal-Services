@@ -11,12 +11,12 @@ Objective:  Build a REST API to fetch the details of a US zip code. The raw data
 Implementation follow SOLID design principles  
 
 -  H2 is used as backend database for persisting the zip data feed.
-- Swagger is used for API documentation as well as  API DEV test model.
+- Swagger is used for API documentation as well as  API DEV test Tool.
 - Filter Based Customized Logging for transactionId and other log enhancement info.
 - Token based Security has been implemented  for  securing end points.  (optional/configurable)
-- Dozer will be used for decoupling  the response projection [In progress]
+- Dozer will be used for decoupling  the response projection.  [In progress]
 - Unit Testing and Code Coverage [ in progress ]
-- Final Clean up .
+- Final Clean up [ in progress ].
 
 All the In progress Item are planned to be completed by 03/12/2020.
 
@@ -40,11 +40,11 @@ All the In progress Item are planned to be completed by 03/12/2020.
 
 # Screens
 
-![](documents\swagger-main-1.png)
+![](documents/swagger-main-1.png)
 
  
 
-![](documents\embedded-postal-h2-data.png)
+![](documents/embedded-postal-h2-data.png)
 
  
 
