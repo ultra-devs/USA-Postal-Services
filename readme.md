@@ -13,7 +13,7 @@ Objective:  Build a REST API to fetch the details of a US zip code. The raw data
 - Swagger is used for API documentation as well as  API DEV test Tool.
 - Filter Based Customized Logging for transactionId and other log enhancement info.
 - Custom Exception Handling is Added for Data Layer i.e `ApiDataNotFoundException` 
-- Token based Security has been implemented  for  securing end points.  (optional/configurable)
+- Token based Security has been implemented  for  securing end points. User/pass(admin/admin , token expires in 5 mins configurable) (optional/configurable)
 - Dozer will be used for decoupling  the response projection.  [In progress]
 - Unit Testing and Code Coverage [ in progress ]
 - Final Clean up [ in progress ].
