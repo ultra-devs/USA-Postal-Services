@@ -3,11 +3,9 @@ package com.ultradev.controller;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ultradev.model.User;
@@ -16,10 +14,6 @@ import com.ultradev.util.ApplicationConstants;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.swagger.annotations.Api;
-
-/*@CrossOrigin(origins = "http://localhost", maxAge = 15)
-@RestController
-@RequestMapping("/user")*/
 
 @RestController
 @RequestMapping(ApplicationConstants.BASE_PATH_TOEKN)
