@@ -2,21 +2,22 @@
 
 Objective:  Build a REST API to fetch the details of a US zip code. The raw data was obtained from http://download.geonames.org/export/zip
 
-`Endpoint:(A) http://<hostname>/zip/{zipid}'`
+`Endpoint:(A) http://<hostname:port>/zip/{zipid}`
 
-`Endpoint:(B) http://<hostname>/zipcounty/count/{state}`
+`Endpoint:(B) http://<hostname:port>/zipcounty/count/{state}`
 
 ## Design/Implementation Consideration
-
-Implementation follow SOLID design principles  
-
+ 
+- Impletation is mostly Follow SOLID Design Principles.
 -  H2 is used as backend database for persisting the zip data feed.
 - Swagger is used for API documentation as well as  API DEV test Tool.
 - Filter Based Customized Logging for transactionId and other log enhancement info.
+- Custom Exception Handling is Added for Data Layer i.e `ApiDataNotFoundException` 
 - Token based Security has been implemented  for  securing end points.  (optional/configurable)
 - Dozer will be used for decoupling  the response projection.  [In progress]
 - Unit Testing and Code Coverage [ in progress ]
 - Final Clean up [ in progress ].
+- Implmentaion Time : 8 Hours (till now) 
 
 All the In progress Item are planned to be completed by 03/12/2020.
 
