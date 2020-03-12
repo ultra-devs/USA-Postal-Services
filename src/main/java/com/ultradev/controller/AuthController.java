@@ -41,7 +41,7 @@ public class AuthController {
 			Date ExpirationDate = new Date(System.currentTimeMillis() + expiration);
 			jwtToken = Jwts.builder().setSubject(loginUser.getUserId()).claim("roles", "user").setIssuedAt(new Date())
 					.setExpiration(ExpirationDate).signWith(SignatureAlgorithm.HS256, "secretkey").compact();
-			
+
 			tokenResponse.setToken(jwtToken);
 			tokenResponse.setUserName(loginUser.getUserId());
 			tokenResponse.setTokenExpirationTimeStamp(ExpirationDate);
