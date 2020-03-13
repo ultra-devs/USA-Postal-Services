@@ -7,8 +7,8 @@ import com.ultradev.common.exception.APIDataNotFoundException;
 
 public class BaseControllerResponseBuilder {
 
-	public  <T> org.springframework.http.ResponseEntity<T> buildAppResponse(T listResponse)
+	public <T> org.springframework.http.ResponseEntity<T> buildAppResponse(T listResponse)
 			throws APIDataNotFoundException {
 		return new ResponseEntity<T>(listResponse, HttpStatus.OK);
-	}	
+	}
 }
