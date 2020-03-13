@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://dozer.sourceforge.net 
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">   
+      <configuration >
+  <date-format>MM/dd/yyyy HH:mm</date-format>
+  <wildcard>false</wildcard>
+  <trim-strings>false</trim-strings>   
+</configuration>    
+     <mapping  map-null="false">
+        <class-a>com.ultradev.dao.entity.ZipCodeInfo</class-a>
+        <class-b>com.ultradev.model.ZipCodeDetails</class-b>
+        <field>
+            <a>place</a>
+            <b>placeName</b>
+        </field>
+        <field>
+            <a>adminname2</a>
+            <b>countyName</b>
+        </field>
+        <field>
+            <a>adminname1</a>
+            <b>stateName</b>
+        </field>
+       <field>
+            <a>admincode1</a>
+            <b>stateCode</b>
+        </field> 
+    </mapping>
+</mappings>

@@ -52,5 +52,8 @@ public class ApplicationConstants {
 	// api security flag
 	public final static boolean API_SECURITY_ENABLE=true;
 	
+	// for flexibly response mapping
+	public static final String DOZER_RESPONSE_MAPPING_XML = "dozer-response-mapping.xml";
+	
 
 }
