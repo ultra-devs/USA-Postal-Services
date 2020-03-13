@@ -14,9 +14,9 @@ Objective:  Build a REST API to fetch the details of a US zip code. The raw data
 - Filter Based Customized Logging for transactionId and other log enhancement info.
 - Custom Exception Handling is Added for Data Layer i.e `ApiDataNotFoundException` 
 - Token based Security has been implemented  for  securing end points. User/pass(admin/admin , token expires in 5 mins configurable) (optional/configurable)
-- Dozer will be used for decoupling  the response projection.  [In progress]
 - Unit Testing - Added minimum coverage for controllers/services
-- Implementation Time : 10 Hours  
+- Dozer is used for API response projection to avoid boiler plate model mapping.
+- Implementation Time : 10 Hours 
 
 
 
