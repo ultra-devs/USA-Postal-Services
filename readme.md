@@ -24,7 +24,7 @@ Objective:  Build a REST API to fetch the details of a US zip code. The raw data
 
 ## How To Run
 
-1. Cone the code from https://github.com/ultra-devs/USA-Postal-Services.git
+1. Clone the code from https://github.com/ultra-devs/USA-Postal-Services.git
 
 2. `cd USA-Postal-Services`
 
@@ -32,7 +32,7 @@ Objective:  Build a REST API to fetch the details of a US zip code. The raw data
 
 4.  `mvn spring-boot:run`
 
-5. Go to http://localhost:8181/swagger-ui.html to access the swagger  or use curl for api invocation
+5. Go to http://localhost:8181/swagger-ui.html to access the swagger  or use curl for api invocation.
 
 6. Use http://localhost:8181/console for view H2 DB console to make sure data upload is fine `use jdbc:h2:mem:assignment-app`.as JDBC URL
 
