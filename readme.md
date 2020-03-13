@@ -8,14 +8,14 @@ Objective:  Build a REST API to fetch the details of a US zip code. The raw data
 
 ## Design/Implementation Consideration
 
-- Impletation is mostly Follow SOLID Design Principles.
--  H2 is used as backend database for persisting the zip data feed.
+- Impletation  is based on SOLID Design Principles.
+- H2 is used as backend database for persisting the zip data feed.
 - Swagger is used for API documentation as well as  API DEV test Tool.
-- Filter Based Customized Logging for transactionId and other log enhancement info.
+- Filter Based Customized Logging for transactionId and other log appender info.
 - Custom Exception Handling is Added for Data Layer i.e `ApiDataNotFoundException` 
-- Token based Security has been implemented  for  securing end points. User/pass(admin/admin , token expires in 5 mins configurable) (optional/configurable)
+- Token based Security has been implemented  for  securing end points. User/pass(admin/admin , token expires in 5 mins configurable) 
 - Unit Testing - Added minimum coverage for controllers/services
-- Dozer is used for API response projection to avoid boiler plate model mapping.
+- Dozer is used for API response projection to avoid boiler plate model mapping as well as having a configuration based response projection.
 - Implementation Time : 10 Hours 
 
 
